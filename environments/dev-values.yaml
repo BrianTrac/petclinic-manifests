@@ -15,7 +15,7 @@ services:
 
   customers-service:
     image:
-      tag: 7148c71
+      tag: bfa7c0d
 
   visits-service:
     image:
@@ -27,8 +27,8 @@ services:
 
   genai-service:
     image:
-      tag: 7148c71
+      tag: bfa7c0d
 
   api-gateway:
     image:
-      tag: 7148c71
+      tag: bfa7c0d
