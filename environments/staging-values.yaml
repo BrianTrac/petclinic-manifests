@@ -1,44 +1,44 @@
 namespace: staging
 
-imageTag: &tag v1.2
+imageTag: &tag v1.4
 
 services:
   config-server:
     image:
       tag: *tag
-      digest: sha256:a500de8e5a4a17ffc4a84f1e69abc18ecfef7a2615e12398fb878789bd153e16
+      digest: sha256:5d7a8470ec1a35db2e1145c501c4dbeeffa963a336cc072ab422f80d005f7898
 
   discovery-server:
     image:
       tag: *tag
-      digest: sha256:f080701fc3d0a7fad813d599958ea5e65ba48f9bca779bab8d3aab4ec3afbbc2
+      digest: sha256:9f619ce60330b3fa7faa9dbb2294c6fd66fc6365d60168a468ffe575702f55d9
 
   admin-server:
     image:
       tag: *tag
-      digest: sha256:732fc6762e737a1f951b984eadbee56d97c6a279bcd7f7b9931e7005fcd87dd8
+      digest: sha256:8a3be26823274663c3ef5e922db0ba071cd29e97c77d632e2a57a964c6ecb02f
 
   customers-service:
     image:
       tag: *tag
-      digest: sha256:8ee45e6173167683308efd17f0ea0465d57b0cbf956edf1164bc2c36a92b3d98
+      digest: sha256:3b7f5d34517badf8a2fdf98acac5096a0a1124425870bdc427bb040298cdbda8
 
   visits-service:
     image:
       tag: *tag
-      digest: sha256:13ae81254493ab0cd92e1bc2626cd1fcb1bdaaee4f233d69cdfd18ca6fc6f425
+      digest: sha256:16a683bb79f90672fd6d754548300004a9d868cce5c4382005f30f1cc720566e
 
   vets-service:
     image:
       tag: *tag
-      digest: sha256:4cbe835a631afe30042561e542d9d5d5b19a6e1fd750cac1f6ddd1268152ce24
+      digest: sha256:016208143a1a981babbd29e8bf6faea2739fc1858f7f1574ab8c06388ee1d2c9
 
   genai-service:
     image:
       tag: *tag
-      digest: sha256:04c20fb98ae686068f2584a457f6bdbf60cb532f7dc50243476084bfbbf23e19
+      digest: sha256:b2573a4c689458503e0247f3b640d6f47cf9cabaed5a9b6bf352dc537b3b1c05
 
   api-gateway:
     image:
       tag: *tag
-      digest: sha256:7e3ba50c95450a0eaa8abfaa9194793aa9875b8422629c187226a120f6eda010
+      digest: sha256:e1d502944a3886bf084e5761ed34025f5bda0dae4fb57f323c09b419afb77b99
