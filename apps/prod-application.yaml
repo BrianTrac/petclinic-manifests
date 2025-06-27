@@ -1,0 +1,29 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: pet-clinic-prod
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  project: default
+
+  source:
+    repoURL: 'https://github.com/kiin21/petclinic-manifests.git' # Replace with your Git repository URL
+    targetRevision: HEAD                                      # the branch/tag/commit hash to deploy
+    path: .        # Path to the Helm chart in the repository
+    helm:
+      valueFiles:
+        - values.yaml                   # Default values
+        - environments/prod-values.yaml  # Prod-specific overrides
+
+  destination:
+    server: 'https://kubernetes.default.svc' # Kubernetes cluster API server
+    namespace: prod                          # Namespace for the prod environment
+
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
+    automated:
+      prune: true
+      selfHeal: true
