@@ -6,39 +6,39 @@ services:
   config-server:
     image:
       tag: *tag
-      digest: sha256:a9f2cc1eb084f231b2045d5bfafef72e068a6d0e7b56d0f079594299ab5bc89a
+      digest: sha256:e32b3fb0d606b1e518e1641e19f67a39cf75bc03c649fb7e4326887479e32836
 
   discovery-server:
     image:
       tag: *tag
-      digest: sha256:17239e82017f864215620ed512714ad3cf96314fb7afe9fea0deeff89a8a0aab
+      digest: sha256:8524afa03962c9b22bad04b2c4008b17bdea189f318d2d76baccff0f59da3b99
 
   admin-server:
     image:
       tag: *tag
-      digest: sha256:d480b99f5e1c09ef149f7861b54a28feb31beb38ff176ba0f3f50ac31fd7c882
+      digest: sha256:2f8c56026c222d7bfbbb80429f3c5d95ca4973a39bf2222e22b774cce2386f6d
 
   customers-service:
     image:
       tag: *tag
-      digest: sha256:b61e372628f8dd39d172272f48bb7249fa450ea49c20c4dac01ba41b210c1e82
+      digest: sha256:96cdbd3c6184c2aeb2fce84c808cb33affed0242a4fd3c7cbe83dddd5957a4e2
 
   visits-service:
     image:
       tag: *tag
-      digest: sha256:035b7c98d4efe0bcd2db51df66203ebb91dcc0771130939c9ab7306815ab4cf3
+      digest: sha256:77ad4f481adac99ff4f80f51c4efac421bafa2053c97450c3c3767b11bee7d97
 
   vets-service:
     image:
       tag: *tag
-      digest: sha256:93b4c221dd214dc88c40aba6b590eeea28e9bd713b643dc0d84d194d835b08e8
+      digest: sha256:1004de1e99a5a088831e836d56a2349e54f98d6608a97d5f5127d24428175338
 
   genai-service:
     image:
       tag: *tag
-      digest: sha256:f2d48119a8052a999b72bdff622618e5eb374f8d633660ecdff41565338a5c55
+      digest: sha256:3129c9452abbffc20acd8d7f38c1d3af2f0620aa6033b65e82148f1a17da9b93
 
   api-gateway:
     image:
       tag: *tag
-      digest: sha256:797ac031931228fd858c2f005847bdcea7dc8b7f020a8e7ee4a54cafda423aac
+      digest: sha256:cbe8ef36b75c7070cf63616f32bb6f1677c53d355ca9cdc6eaffb7df5db1333e
