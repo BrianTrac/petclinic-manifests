@@ -15,15 +15,15 @@ services:
 
   customers-service:
     image:
-      tag: 4564e3e
+      tag: 304031b
 
   visits-service:
     image:
-      tag: 4564e3e
+      tag: 304031b
 
   vets-service:
     image:
-      tag: 4564e3e
+      tag: 304031b
 
   genai-service:
     image:
@@ -31,4 +31,4 @@ services:
 
   api-gateway:
     image:
-      tag: 4564e3e
+      tag: 304031b
