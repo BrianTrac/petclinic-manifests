@@ -15,15 +15,15 @@ services:
 
   customers-service:
     image:
-      tag: 982fce3
+      tag: ab4810a
 
   visits-service:
     image:
-      tag: 982fce3
+      tag: ab4810a
 
   vets-service:
     image:
-      tag: 982fce3
+      tag: ab4810a
 
   genai-service:
     image:
