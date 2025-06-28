@@ -42,3 +42,18 @@ services:
     image:
       tag: *tag
       digest: sha256:c468ca15281b5f6edbdef0709101cd94baa1b6ae66707bb1d4952aa6b574bb24
+
+  grafana:
+    image:
+      tag: *tag
+      digest: sha256:c468ca15281b5f6edbdef0709101cd94baa1b6ae66707bb1d4952aa6b574bb24
+
+  prometheus:
+    image:
+      tag: *tag
+      digest: sha256:c468ca15281b5f6edbdef0709101cd94baa1b6ae66707bb1d4952aa6b574bb24
+
+  loki:
+    image:
+      tag: *tag
+      digest: sha256:c468ca15281b5f6edbdef0709101cd94baa1b6ae66707bb1d4952aa6b574bb24

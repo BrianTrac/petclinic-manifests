@@ -32,3 +32,18 @@ services:
   api-gateway:
     image:
       tag: d5d3fb9
+
+  grafana:
+    image:
+      name: grafana
+      tag: v1.10
+
+  prometheus:
+    image:
+      name: prometheus
+      tag: v1.9
+
+  loki:
+    image:
+      name: loki
+      tag: v1.8

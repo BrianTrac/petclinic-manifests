@@ -44,10 +44,10 @@ services:
       targetPort: 8761
     image:
       name: spring-petclinic-discovery-server
-    depend_on: 
+    depend_on:
       name: config-server
       port: 8888
-    env: 
+    env:
       - *configServerEnv
 
   admin-server:
@@ -57,7 +57,7 @@ services:
     image:
       name: spring-petclinic-admin-server
     depend_on: *dependOnEureka
-    env: 
+    env:
       - *configServerEnv
 
   customers-service:
@@ -69,7 +69,7 @@ services:
     depend_on: *dependOnEureka
     autoscaling:
       <<: *defaultAutoscaling
-    env: 
+    env:
       - *configServerEnv
 
   visits-service:
@@ -81,7 +81,7 @@ services:
     depend_on: *dependOnEureka
     autoscaling:
       <<: *defaultAutoscaling
-    env: 
+    env:
       - *configServerEnv
 
   vets-service:
@@ -93,7 +93,7 @@ services:
     depend_on: *dependOnEureka
     autoscaling:
       <<: *defaultAutoscaling
-    env: 
+    env:
       - *configServerEnv
 
   genai-service:
@@ -105,7 +105,7 @@ services:
     depend_on: *dependOnEureka
     autoscaling:
       <<: *defaultAutoscaling
-    env: 
+    env:
       - *configServerEnv
 
   api-gateway:
@@ -117,7 +117,7 @@ services:
     depend_on: *dependOnEureka
     autoscaling:
       <<: *defaultAutoscaling
-    env: 
+    env:
       - *configServerEnv
 
   tracing-server:
@@ -127,5 +127,26 @@ services:
       targetPort: 9411
     image:
       name: zipkin
-    env: 
-      - *configServerEnv 
+    env:
+      - *configServerEnv
+
+  prometheus:
+    ports:
+      port: 9090
+      targetPort: 9090
+    image:
+      name: prometheus
+
+  grafana:
+    ports:
+      port: 3000
+      targetPort: 3000
+    image:
+      name: grafana
+
+  loki:
+    ports:
+      port: 3100
+      targetPort: 3100
+    image:
+      name: loki
