@@ -46,14 +46,14 @@ services:
   grafana:
     image:
       tag: 83007f5
-      digest: sha256:d3c87bcff7cf50cc486ba64d1d4cb04a9d9d434f821a728af68b75c4048bb4f1
+      digest: sha256:15bdeeca49658733ae6070fe099cdb827853fa849a4bda69c1be2070027a5d69
 
   prometheus:
     image:
       tag: 83007f5
-      digest: sha256:bf825b5a07eea058cd5c242dc127fa846f82ef0dbc2d5a62973b4efa6f69ca3e
+      digest: sha256:5bf602736c55ef1d445d6ac85d0ebf532147e34493f63bad78079110e82c9aed
 
   loki:
     image:
       tag: 83007f5
-      digest: sha256:8ebc4da57ea350b1dcef38d25bd2ef17a161ab3073e25d20e53953d74408f2de
+      digest: sha256:1932237481612451b0237fe917ad851a68d4309ec44a6d94c719aa8bdfc0d52b
