@@ -45,7 +45,7 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: prometheus-server
+            name: prometheus
             port:
               number: 9090
   - host: grafana.{{ .Values.namespace }}-{{ .Values.ingress.host | default "petclinic.cloud" }}
@@ -55,7 +55,7 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: grafana-server
+            name: grafana
             port:
               number: 3000
   - host: tracing.{{ .Values.namespace }}-{{ .Values.ingress.host | default "petclinic.cloud" }}
