@@ -35,15 +35,12 @@ services:
 
   grafana:
     image:
-      name: grafana
-      tag: v1.10
+      tag: 83007f5
 
   prometheus:
     image:
-      name: prometheus
-      tag: v1.9
+      tag: 83007f5
 
   loki:
     image:
-      name: loki
-      tag: v1.8
+      tag: 83007f5
