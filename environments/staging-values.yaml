@@ -45,15 +45,15 @@ services:
 
   grafana:
     image:
-      tag: *tag
+      tag: 83007f5
       digest: sha256:d3c87bcff7cf50cc486ba64d1d4cb04a9d9d434f821a728af68b75c4048bb4f1
 
   prometheus:
     image:
-      tag: *tag
+      tag: 83007f5
       digest: sha256:bf825b5a07eea058cd5c242dc127fa846f82ef0dbc2d5a62973b4efa6f69ca3e
 
   loki:
     image:
-      tag: *tag
+      tag: 83007f5
       digest: sha256:8ebc4da57ea350b1dcef38d25bd2ef17a161ab3073e25d20e53953d74408f2de
