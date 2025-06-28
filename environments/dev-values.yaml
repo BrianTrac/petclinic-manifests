@@ -31,7 +31,7 @@ services:
 
   api-gateway:
     image:
-      tag: 982fce3
+      tag: f6d403b
 
   grafana:
     image:
