@@ -19,7 +19,7 @@ services:
 
   visits-service:
     image:
-      tag: a3f5cdd
+      tag: deeef46
 
   vets-service:
     image:
