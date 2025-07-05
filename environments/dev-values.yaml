@@ -3,35 +3,35 @@ namespace: dev
 services:
   config-server:
     image:
-      tag: d5d3fb9
+      tag: 1ad5581
 
   discovery-server:
     image:
-      tag: d5d3fb9
+      tag: 1ad5581
 
   admin-server:
     image:
-      tag: d5d3fb9
+      tag: 1ad5581
 
   customers-service:
     image:
-      tag: 5bfa0b4
+      tag: 1ad5581
 
   visits-service:
     image:
-      tag: deeef46
+      tag: 1ad5581
 
   vets-service:
     image:
-      tag: de36828
+      tag: 1ad5581
 
   genai-service:
     image:
-      tag: d5d3fb9
+      tag: 1ad5581
 
   api-gateway:
     image:
-      tag: a3f5cdd
+      tag: 1ad5581
 
   grafana:
     image:
