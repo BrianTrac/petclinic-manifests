@@ -23,7 +23,7 @@ services:
 
   vets-service:
     image:
-      tag: a3f5cdd
+      tag: de36828
 
   genai-service:
     image:
