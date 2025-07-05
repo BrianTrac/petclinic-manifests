@@ -35,12 +35,12 @@ services:
 
   grafana:
     image:
-      tag: d1edd84
+      tag: d9b0447
 
   prometheus:
     image:
-      tag: d1edd84
+      tag: d9b0447
 
   loki:
     image:
-      tag: d1edd84
+      tag: d9b0447
