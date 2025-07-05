@@ -15,7 +15,7 @@ services:
 
   customers-service:
     image:
-      tag: a3f5cdd
+      tag: 5bfa0b4
 
   visits-service:
     image:
