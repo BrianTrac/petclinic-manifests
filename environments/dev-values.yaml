@@ -31,7 +31,7 @@ services:
 
   api-gateway:
     image:
-      tag: f9117cc
+      tag: fadf7fa
 
   grafana:
     image:
