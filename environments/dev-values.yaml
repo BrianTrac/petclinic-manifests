@@ -15,15 +15,15 @@ services:
 
   customers-service:
     image:
-      tag: fdd44bd
+      tag: a3f5cdd
 
   visits-service:
     image:
-      tag: fdd44bd
+      tag: a3f5cdd
 
   vets-service:
     image:
-      tag: fdd44bd
+      tag: a3f5cdd
 
   genai-service:
     image:
@@ -31,7 +31,7 @@ services:
 
   api-gateway:
     image:
-      tag: fadf7fa
+      tag: a3f5cdd
 
   grafana:
     image:
