@@ -1,59 +1,59 @@
 namespace: staging
 
-imageTag: &tag v1.0.0
+imageTag: &tag v1.0-prod
 
 services:
   config-server:
     image:
       tag: *tag
-      digest: sha256:dd4823f1193dd687fed66d72c5337e1bb36af745b7380802229394333c0212dd
+      digest: sha256:8bdd3766627f37c4bd4d06404bc5ac3fadb6938e9a051e48646829e4043e675a
 
   discovery-server:
     image:
       tag: *tag
-      digest: sha256:92b0d15686396872e0475e3f265f63ac87807fbb6d12a39296a8c40690bed904
+      digest: sha256:836f13313736ebd44cbdb6152b14e0554eb70467c892e623129a752caf0fc136
 
   admin-server:
     image:
       tag: *tag
-      digest: sha256:5d1aa909597d24c598488ec84ca0f9ad6f08c2ecb6e4421659d3b5ade1382cd9
+      digest: sha256:91f9572881a971074ba71bca27e58184d6c02da9e9b1808b7a2de90f1cb27a38
 
   customers-service:
     image:
       tag: *tag
-      digest: sha256:5a87ec7c1820429d9320245b8fa4e18c2f7e0d93055ae5ac3912c3d1e6c50db5
+      digest: sha256:74234445412e4ea3fd8f4d1e234e288bf1b4f614cb469c652c1bed80998fea3c
 
   visits-service:
     image:
       tag: *tag
-      digest: sha256:135a00f2855b893d29a3e98412b69745646893de2c8c57c8358187139676990a
+      digest: sha256:4765fc230d7bd0071c34084b72f53f495148297609007c827a9e1aa8d2be8b12
 
   vets-service:
     image:
       tag: *tag
-      digest: sha256:5cf626b3cc803d87c09bf2ad2aef835f26db87f92f9b0b8f2c3b2b199a9decbf
+      digest: sha256:1d7c4568c516a64c021127e9f7b97359353c63f70acc921470227f083f2ee2ad
 
   genai-service:
     image:
       tag: *tag
-      digest: sha256:75084f7de54ee9df61d14310a033bfab01b78f8c0008c3dca487e033874bb0c2
+      digest: sha256:e4cf2df9763b162c6a89518d4fd6ba832c6372025d3c8afe791fc2edb2aad03b
 
   api-gateway:
     image:
       tag: *tag
-      digest: sha256:5c8dbedd600035e981a0933882443c5701fbeabe55ce7d01c6d764eef515a29b
+      digest: sha256:c7b9650febfcc0119a45393bb0f5643516e81f0a1b4b01f54c1433bba338382e
 
   grafana:
     image:
       tag: 83007f5
-      digest: sha256:2f78f382c2cac14d83db94b931a5227e53fe0d6deeb5c94fddf9db5c84a285af
+      digest: sha256:56a4d819ca01a79b4bb2000b6535489f344533e6dd1bc3cac4f2cc55ed926123
 
   prometheus:
     image:
       tag: 83007f5
-      digest: sha256:98027e6c6d29f13b099018e3ff4d903cc402e9201122c3d76c8c836d2a5ed562
+      digest: sha256:41838bfa67c0a63ef52f1faa6c29234c64aed5d183697ce4e393a8ecf1c96265
 
   loki:
     image:
       tag: 83007f5
-      digest: sha256:fa201ab051c9b3f967420dc8a02505f60c2a25601287793d36c8164262db3e98
+      digest: sha256:353f97c29acd7528ac310491936746e02350a8f02f9934b3ce31773b27ff3a92
