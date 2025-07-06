@@ -1,0 +1,46 @@
+namespace: preview-abc-com
+
+services:
+  config-server:
+    image:
+      tag: v1.0-prod
+
+  discovery-server:
+    image:
+      tag: v1.0-prod
+
+  admin-server:
+    image:
+      tag: v1.0-prod
+
+  customers-service:
+    image:
+      tag: v1.0-prod
+
+  visits-service:
+    image:
+      tag: v1.0-prod
+
+  vets-service:
+    image:
+      tag: v1.0-prod
+
+  genai-service:
+    image:
+      tag: v1.0-prod
+
+  api-gateway:
+    image:
+      tag: v1.0-prod
+
+  grafana:
+    image:
+      tag: a3f5cdd
+
+  prometheus:
+    image:
+      tag: a3f5cdd
+
+  loki:
+    image:
+      tag: a3f5cdd
